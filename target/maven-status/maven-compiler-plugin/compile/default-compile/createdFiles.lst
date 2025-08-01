@@ -1,0 +1,11 @@
+entidades\Brinquedo.class
+entidades\Pereciveis.class
+entidades\Venda.class
+entidades\Agendamento.class
+entidades\Estoque.class
+entidades\ItemDeVenda.class
+entidades\Medicamento.class
+entidades\Produto.class
+entidades\Racao.class
+aplicacao\PetShop.class
+entidades\Servico.class
