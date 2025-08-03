@@ -1,4 +1,4 @@
-package entidades;
+package padroes.entidades;
 
 public class Servico {
     private String nome;
@@ -21,5 +21,5 @@ public class Servico {
     public String toString() {
         return "\n" + nome + ", R$" + preco;
     }
-    
+        
 }
