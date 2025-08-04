@@ -1,10 +1,10 @@
 package padroes.entidades;
 
-import entidades.Pereciveis;
+import padroes.entidades.Perecíveis;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Racao extends entidades.Produto implements Pereciveis{
+public class Racao extends Produto implements Perecíveis{
     private Date validade;
     SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     

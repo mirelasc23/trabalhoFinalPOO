@@ -1,19 +1,17 @@
 package padroes.entidades;
 
-import entidades.Estoque;
-
 public class ItemDeVenda {
-    private entidades.Produto produto;
-    private entidades.Servico servico;
+    private Produto produto;
+    private Servico servico;
     private int quantidade;
     
-	public ItemDeVenda(entidades.Produto produto, int quantidade) {
+	public ItemDeVenda(Produto produto, int quantidade) {
 		super();
 		this.produto = produto;
 		this.quantidade = quantidade;
 	}
 
-	public ItemDeVenda(entidades.Servico servico, int quantidade) {
+	public ItemDeVenda(Servico servico, int quantidade) {
 		super();
 		this.servico = servico;
 		this.quantidade = quantidade;
@@ -23,11 +21,11 @@ public class ItemDeVenda {
     	 return quantidade;
      }
      
-	public entidades.Produto getProduto() {
+	public Produto getProduto() {
 		return produto;
 	}
 
-	public entidades.Servico getServico() {
+	public Servico getServico() {
 		return servico;
 	}
 	

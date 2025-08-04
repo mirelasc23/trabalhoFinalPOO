@@ -20,6 +20,7 @@ public class Venda {
 		return codigo;
 	}
 	
+        
     public void adicionarProduto(Produto produto, int quantidade) {
     	ItemDeVenda itemDeProduto = new ItemDeVenda(produto, quantidade);
     	listaItemDeVendas.add(itemDeProduto);
