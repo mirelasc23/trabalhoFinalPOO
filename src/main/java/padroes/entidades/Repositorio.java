@@ -14,12 +14,33 @@ public class Repositorio {
     }
 
     private void iniciaProdutos() {
-        Produto medicaento = new Produto("medimento", 10, 2);
+        Produto medicamento = new Medicamento("medimento", 10, 2);
+        Produto brinquedo = new Brinquedo("medimento", 10, 2);
+        Produto racao = new Racao("medimento", 10, 2);
     }
 
     private void iniciaServicos() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Servico banho = new Servico("banho", 35.00);
+        Servico tosa = new Servico("tosa", 15.00);
+        Servico consulta = new Servico("consulta", 75.00);
+        
+    }
+
+    public List<Produto> produtos() {
+        return produtos;
+    }
+
+    public List<Servico> servicos() {
+        return servicos;
     }
     
+    public StringBuilder exibirServicos(){
+        StringBuilder exibirServicos = new StringBuilder("\n-----| Serviços |------\n");
+        for (Servico servico : servicos) {
+            exibirServicos.append(servicos.indexOf(servico) + 1);
+            exibirServicos.append(" - ");
+            exibirServicos.append(servico.getNome());
+        }
+    }
     
 }
