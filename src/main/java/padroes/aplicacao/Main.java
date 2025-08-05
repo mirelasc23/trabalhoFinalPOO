@@ -9,16 +9,16 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    private static Produto medicamento = null;
+    /*private static Produto medicamento = null;
     private static Produto racao = null;
     private static Produto brinquedo = null;
     private static Servico banho = null;
     private static Servico tosa = null;
-    private static Servico consulta = null;
+    private static Servico consulta = null;*/
 
     //LISTAS
-    public static List<Produto> listaProduto = new ArrayList<>();
-    public static List<Servico> listaServico = new ArrayList<>();
+    /*public static List<Produto> listaProduto = new ArrayList<>();
+    public static List<Servico> listaServico = new ArrayList<>();*/
     public static List<Agendamento> listaAgendamento = new ArrayList<>();
     public static List<Estoque> listaEstoque = new ArrayList<>();
     public static List<Venda> listaVenda = new ArrayList<>();

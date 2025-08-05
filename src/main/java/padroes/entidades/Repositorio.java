@@ -40,7 +40,21 @@ public class Repositorio {
             exibirServicos.append(servicos.indexOf(servico) + 1);
             exibirServicos.append(" - ");
             exibirServicos.append(servico.getNome());
+            exibirServicos.append("\n");
+            
         }
+        return exibirServicos;
     }
     
+    public StringBuilder exibirProdutos(){
+        StringBuilder exibirProdutos = new StringBuilder("\n-----| Produtos |------\n");
+        for (Produto produto : produtos) {
+            exibirProdutos.append(produtos.indexOf(produto) + 1);
+            exibirProdutos.append(" - ");
+            exibirProdutos.append(produto.getNome());
+            exibirProdutos.append("\n");
+            
+        }
+        return exibirProdutos;
+    }
 }
