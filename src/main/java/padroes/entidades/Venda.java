@@ -10,17 +10,16 @@ public class Venda {
 
     public Venda(int codigo) {
     	this.codigo = codigo;
-	}
+    }
 
-	public double getValor() {
+    public double getValor() {
         return valor;
     }
     
-	public int getCodigo() {
-		return codigo;
-	}
-	
-        
+    public int getCodigo() {
+            return codigo;
+    }
+	        
     public void adicionarProduto(Produto produto, int quantidade) {
     	ItemDeVenda itemDeProduto = new ItemDeVenda(produto, quantidade);
     	listaItemDeVendas.add(itemDeProduto);
